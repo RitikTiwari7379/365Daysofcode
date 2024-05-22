@@ -9,7 +9,8 @@ struct Node {
     data = x;
     next = NULL;
   }
-
+  
+}
 //Function to find the data of nth node from the end of a linked list.
 class Solution{
 public:
