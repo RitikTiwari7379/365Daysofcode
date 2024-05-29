@@ -23,6 +23,7 @@ public:
         long long n = nums.size();
         long long subset = pow(2,n);
         for(long long i = 0; i<subset; i++){
+
             long long bn = converttobinary(i);
             long long div = pow(10 , n-1);
             
